@@ -1,0 +1,18 @@
+{"timestamp":"00:00:00.957","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.643","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:09.262","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:01:58.204","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:20.598","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:40.412","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:58.556","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:22:28.164","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:00:25.235","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:17:35.146","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection:\" Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.252","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.253","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.267","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.268","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.282","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.283","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.286","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
+{"timestamp":"01:17:35.287","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'C:\\Users\\u26408\\Desktop\\Projeto_Reserva_De_Laboratorio_E_Salas_De_Aula\\frontend\\app'"}
