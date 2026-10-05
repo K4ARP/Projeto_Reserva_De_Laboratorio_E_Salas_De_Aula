@@ -1,7 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/cadastro-laboratorio/page": "app/cadastro-laboratorio/page.js",
-  "/cadastro-sala/page": "app/cadastro-sala/page.js",
-  "/cadastro-usuario/page": "app/cadastro-usuario/page.js",
-  "/page": "app/page.js"
-}
