@@ -19,6 +19,17 @@ CREATE TABLE Laboratorio(
     localizacao VARCHAR(100)
 );
 
+CREATE TABLE HistoricoAcesso (
+    idHistoricoAcesso INT PRIMARY KEY IDENTITY(1,1),
+    idUsuario INT NOT NULL,
+    dataAcesso DATETIME NOT NULL DEFAULT GETDATE(),
+
+    CONSTRAINT FK_HistoricoAcesso_Usuario
+        FOREIGN KEY (idUsuario)
+        REFERENCES Usuario(idUsuario)
+);
+
+
 
 CREATE TABLE Sala(
     codigo INT PRIMARY KEY,
