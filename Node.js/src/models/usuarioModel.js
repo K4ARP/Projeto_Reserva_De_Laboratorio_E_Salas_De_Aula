@@ -1,15 +1,27 @@
-import conectaBD  from "../config/dbConexao";  
+import conectaBD from '../config/dbConexao.js';
 
 async function listarUsuarios() {
-    try {
-        const BD = await conectaBD();
-        const result = await BD.query(`SELECT * FROM Usuario`);
-
-        return result.recordset;
-    }
-    catch (erro){
-        console.log("Erro na busca de usuarios", erro);
-        throw erro;
-    }
+    const bd = await conectaBD();
+    const resultado = await bd.query('SELECT * FROM Usuario');
+    return resultado.recordset;
 }
-export default listarUsuarios;
+
+async function cadastrarUsuario(dados) {
+    const bd = await conectaBD();
+    await bd.request()
+        .input('cpf', dados.cpf)
+        .input('nomeCompleto', dados.nomeCompleto)
+        .input('dataAniversario', dados.dataAniversario)
+        .input('celular', dados.celular)
+        .input('email', dados.email)
+        .input('login', dados.login)
+        .input('senha', dados.senha)
+        .query(`
+            INSERT INTO Usuario
+                (cpf, nomeCompleto, dataAniversario, celular, email, [login], senha)
+            VALUES
+                (@cpf, @nomeCompleto, @dataAniversario, @celular, @email, @login, @senha)
+        `);
+}
+
+export { listarUsuarios, cadastrarUsuario };
