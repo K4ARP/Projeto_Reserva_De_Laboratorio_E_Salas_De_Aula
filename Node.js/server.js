@@ -22,6 +22,7 @@ app.get('/', (req, res) => {
             'GET /usuarios/:id',
             'POST /usuarios',
             'PUT /usuarios/:id',
+<<<<<<< HEAD
             'DELETE /usuarios/:id',
 
             'GET /laboratorios',
@@ -41,6 +42,9 @@ app.get('/', (req, res) => {
             'POST /status',
             'PUT /status/:id',
             'DELETE /status/:id'
+=======
+            'DELETE /usuarios/:id'
+>>>>>>> c8fd5310246ba84f310843643a6e450d5902684b
         ]
     });
 });
@@ -54,4 +58,8 @@ const porta = process.env.PORTA || 8000;
 
 app.listen(porta, () => {
     console.log(`Servidor rodando ${porta}`);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> c8fd5310246ba84f310843643a6e450d5902684b

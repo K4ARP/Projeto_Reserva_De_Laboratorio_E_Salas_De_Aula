@@ -114,4 +114,8 @@ export {
     cadastrar,
     atualizar,
     excluir
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> c8fd5310246ba84f310843643a6e450d5902684b
